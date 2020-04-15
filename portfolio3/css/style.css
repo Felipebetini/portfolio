@@ -137,3 +137,17 @@
 #pExperiencias {
     margin-bottom: 2rem;
 }
+
+#cursos {
+    text-align: center;
+    background: #003245;
+    color: white;
+}
+
+#divCurso {
+    border: 1px solid white;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
