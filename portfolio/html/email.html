@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animated.css">
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img id="imgNav" src="../img/logo.png"></a>
+    </nav>
+
+
+    <div id="divAvatar" class="container-fluid">
+        <img id="avatar" class="wow fadeInDown" src="../img/avataaars.png" style="text-align: center;">
+    </div>
+
+
+    <div class="container-fluid divBig" style="background-color: #003245;">
+        <div id="divApresentacao" class="container">
+            <div id="divHello" class="row">
+
+
+                <form id="divForm" action="../php/email.php">
+                    <h3 id="hEmail">Me de seu Feedback ou entre em contato comigo!</h3>
+                    <div class="form-group">
+                        <label>Seu nome:</label>
+                        <input name="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Digite aqui =)">
+                    </div>
+                    <div class="form-group">
+                        <label>Endereço de email</label>
+                        <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Sugestoes, dicas, ou elogios =)</label>
+                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" formmethod="POST" class="btn btn-primary">Enviar</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
